@@ -1,4 +1,4 @@
-# GRMR
+# Yes
   # Table of Contents
 1. [License](#license)
 2. [Description](#description)
@@ -11,17 +11,17 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   MIT
   ## description
-  GRM
+  yes
   ## installation
-  N/A
+  no
   ## usage
-  undefined
+  no
   ## contributing
-  Solo Project
+  no one
   ## tests
-  Run in integrated Terminal
+  no
   ## questions
   "Below is listed my contact information and github profile if you have further questions."
-  Willisson7
-  123ezstreet@fictionmail.com
-
+  
+  [Willisson7 on GitHub](https://github.com/Willisson7)
+  no@never.com

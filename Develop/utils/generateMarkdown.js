@@ -7,6 +7,11 @@ function renderLicenseBadge(license) {
   else if(license === "MOZILLA"){
     return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
   }
+  else if(license === "GNU"){
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
+  }
+  else if(license === "None")
+    return `N/A`
   // Rinse repeat
 }
 
@@ -46,9 +51,10 @@ function generateMarkdown(answers) {
   ${answers.test}
   ## questions
   "Below is listed my contact information and github profile if you have further questions."
-  ${answers.userName}
-  ${answers.email}
 
+  [${answers.userName} on GitHub](https://github.com/${answers.userName})
+  
+  ${answers.email}
 `;
 }
 

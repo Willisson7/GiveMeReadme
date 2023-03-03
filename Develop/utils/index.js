@@ -28,6 +28,11 @@ const questions = [
         },
         {
             type: 'input',
+            message: 'How do you use your app?',
+            name: 'use',
+        },
+        {
+            type: 'input',
             message: 'Who else has worked on this project?',
             name: 'authors',
         },
