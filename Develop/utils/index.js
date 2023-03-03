@@ -20,13 +20,39 @@ const questions = [
             message: 'What is your app License?',
             name: 'license',
             choices: ['MIT', 'GNU','MOZILLA', 'None']
+        },
+        {
+            type: 'input',
+            message: 'How do you install the app?',
+            name: 'install',
+        },
+        {
+            type: 'input',
+            message: 'Who else has worked on this project?',
+            name: 'authors',
+        },
+        {
+            type: 'input',
+            message: 'How do you test your app?',
+            name: 'test',
+        },
+        {
+            type: 'input',
+            message: 'Please enter your GitHub username.',
+            name: 'userName',
+        },
+        {
+            type: 'input',
+            message: 'Please enter your email address.',
+            name: 'email',
         }
+
 ]
 
 
 
 // // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {

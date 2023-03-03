@@ -24,15 +24,31 @@ function renderLicenseSection(license) {}
 function generateMarkdown(answers) {
   return `# ${answers.title}
   # Table of Contents
-1. [Description](#description)
-2. [License](#license)
-3. [Installation](#third-example)
+1. [License](#license)
+2. [Description](#description)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Questions](#questions)
   ## license
   ${renderLicenseBadge(answers.license)}
   ${answers.license}
   ## description
   ${answers.description}
-  
+  ## installation
+  ${answers.install}
+  ## usage
+  ${answers.use}
+  ## contributing
+  ${answers.authors}
+  ## tests
+  ${answers.test}
+  ## questions
+  "Below is listed my contact information and github profile if you have further questions."
+  ${answers.userName}
+  ${answers.email}
+
 `;
 }
 
