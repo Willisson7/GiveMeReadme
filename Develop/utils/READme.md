@@ -1,4 +1,4 @@
-# Yes
+# GiveMeReadMe
   # Table of Contents
 1. [License](#license)
 2. [Description](#description)
@@ -11,17 +11,18 @@
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   MIT
   ## description
-  yes
+  This app is meant to generate a professional READme
   ## installation
-  no
+  N/A
   ## usage
-  no
+  Run the app in an integrated Terminal and answer the questions.
   ## contributing
-  no one
+  No one.
   ## tests
-  no
+  Trial and Error
   ## questions
   "Below is listed my contact information and github profile if you have further questions."
-  
+
   [Willisson7 on GitHub](https://github.com/Willisson7)
-  no@never.com
+  
+  thegwillis@gmail.com
